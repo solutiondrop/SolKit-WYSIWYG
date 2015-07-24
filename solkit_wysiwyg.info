@@ -1,0 +1,11 @@
+name = SolKit WYSIWYG
+description = Override of Panopoly WYSIWYG
+core = 7.x
+package = SolKit
+version = 7.x-1.0
+dependencies[] = ckeditor
+dependencies[] = panopoly_wysiwyg
+features[features_api][] = api:2
+features[features_override_items][] = wysiwyg.panopoly_wysiwyg_text
+features[features_overrides][] = wysiwyg.panopoly_wysiwyg_text.editor
+features[features_overrides][] = wysiwyg.panopoly_wysiwyg_text.settings
