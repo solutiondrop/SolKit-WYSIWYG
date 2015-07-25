@@ -9,8 +9,7 @@ core = 7.x
 
 projects[features_override][type] = module
 projects[features_override][download][type] = git
-projects[features_override][download][revision] = c854057
-projects[features_override][download][branch] = 7.x-3.x
+projects[features_override][download][branch] = 7.x-2.x
 
 ; CKeditor
 projects[ckeditor][version] = 1.16
